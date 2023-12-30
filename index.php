@@ -9,10 +9,12 @@
     <body>
         <h1>
         <?php 
-            echo "Hi, I'm Danielle";
+            $greeting = "Hello";
+            
+            echo "$greeting Everybody!";
         ?>
         </h1>
-
+ 
         <p>
             <?php 
                 echo "This is my first PHP webpage! Learning new technologies is always a fun challenge."
